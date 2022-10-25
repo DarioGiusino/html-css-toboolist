@@ -11,13 +11,37 @@ body{
     background-color: darkgrey;
 }
 
+.box{
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 10px;
+}
+
 /*Utilities*/
+.container{
+    width: 50%;
+    margin: 0 auto;
+    background-color: white;
+    padding: 10px 25px;
+}
+
+.top{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom: 1px solid darkgrey;
+}
+
+.bottom{
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
 
 
 /*Logo header*/
 #logo-header{
     background-color: white;
     padding: 10px 20px;
+    margin-bottom: 50px;
 }
 
 #logo{
@@ -29,4 +53,17 @@ body{
     vertical-align: middle;
     font-weight: 900;
     font-size: 40px;
+}
+
+/*Card manager*/
+.task{
+    color: white;
+    background-color: #1e90ff;
+    border: 1px solid #1e90ff;
+}
+
+.section{
+    color: #7b736f;
+    text-decoration: none;
+    border: 1px solid #7b736f;
 }
