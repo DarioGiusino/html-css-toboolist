@@ -1,5 +1,32 @@
+/*CSS Reset*/
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+/*Generics*/
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: darkgrey;
+}
+
+/*Utilities*/
+
+
+/*Logo header*/
+#logo-header{
+    background-color: white;
+    padding: 10px 20px;
+}
+
+#logo{
+    vertical-align: middle;
+}
+
+.main-header{
+    display: inline;
+    vertical-align: middle;
+    font-weight: 900;
+    font-size: 40px;
 }
