@@ -21,9 +21,14 @@ h3{
     padding: 15px 0;
 }
 
-p{
+li{
     padding: 8px 0;
 }
+
+ul{
+    list-style-type: none;
+}
+
 
 /*Utilities*/
 .container{
@@ -42,14 +47,14 @@ p{
 .bottom{
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 
 /*Logo header*/
 #logo-header{
     background-color: white;
     padding: 10px 20px;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 #logo{
